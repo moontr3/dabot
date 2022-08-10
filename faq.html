@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Da-bot - ЧАВО</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/logo.png">
+    </head>
+    <body style="background-color: #ED9553;"> 
+        <section class="small-header">
+            <nav>
+                <a href="index.html">
+                    <img src="images/bw_logo.png">
+                </a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Главная</li></a>
+                        <li><a href="commands.html">Команды</li></a>
+                        <li><a href="faq.html">ЧАВО</li></a>
+                        <li><a href="about.html">О боте</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="top-text">
+                <h1>Da-bot</h1>
+                <p>
+                   ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ
+                </p><br><br><br>
+                <a href="index.html" class="small-button">На главную</a>
+            </div>
+            <div class="scroll-icon">
+                <img src="images/scroll_down.png" onclick="pageseeing()">
+            </div>
+        </section>
+        <section class="unsupported-size-text">
+            <p>Этот экран слишком мал для отображения сайта.</p>
+        </section>
+        <div class="page-contents">
+            <section>
+                <div class="rect-row">
+                    <h1>Часто задаваемые вопросы</h1><br>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Что такое ЧАВО или FAQ?</h3>
+                            <p class="tos-paragraph">FAQ - это аббревиатура, произведенная от "Frequently 
+                                Asked Questions", переводится это как "Часто 
+                                задаваемые вопросы". ЧАВО - это тоже своеобразная 
+                                аббревиатура от "Часто задаваемые вопросы".</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Как добавить бота?</h3>
+                            <p class="tos-paragraph">Кнопка для добавления бота на сервер находится на 
+                                главной странице, в профиле бота в Discord, или 
+                                можно просто нажать на <a href="add.html">этот текст</a>.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Что делать, если бот не работает?</h3>
+                            <p class="tos-paragraph">Необходимо просто ждать, пока бот включится. 
+                                Он может заработать как и через 2 минуты, 
+                                так и через несколько часов. Если бот долго 
+                                не включается, загляните на <a href="discord.html">наш сервер</a>.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Что такое айди (ID) и как оно работает?</h3>
+                            <p class="tos-paragraph">Много чего в дискорде имеет имя. Но внутри самой 
+                                системы дискорда используются не имена, а айди. 
+                                Чтобы узнать айди участника, канала, роли или 
+                                прочих вещей на ПК, нужно зайти в Настройки > 
+                                Расширенные и включить там галочку "Режим 
+                                разработчика". На мобильных устройствах эта опция 
+                                находится в разделе Внешний вид в настройках. 
+                                После включения у многих элементов можно будет 
+                                найти опцию "Копировать ID" (на ПК эта опция 
+                                находится, если кликнуть ПКМ по элементу, на 
+                                мобильных устройствах я не знаю, у меня такого 
+                                нет).</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Как делать ботов и как мы его делаем?</h3>
+                            <p class="tos-paragraph">Мы делаем своих ботов (в том числе и да-бота) 
+                                на языке программирования Python версии 3.9, 
+                                и используем библиотеку discord.py (подробности 
+                                о прочих библиотеках <a href="external-resources.html">тут</a>). Вы, конечно, тоже 
+                                можете написать своего бота на питоне, но если 
+                                вы в этом новичок, можете попробовать использовать 
+                                мобильное приложение BDFD (Bot Designer For 
+                                Discord), которое доступно для Android. Там, 
+                                конечно, тоже есть что-то похожее на язык 
+                                программирования, но его довольно легко выучить 
+                                и большим плюсом к этому является бесплатный 
+                                хостинг бота.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Определенная команда не работает. Что делать?</h3>
+                            <p class="tos-paragraph">Напишите мне в ЛС либо <a href="https://forms.gle/Tt3uxaVxUYiwZoPH8">сюда</a> подробности о 
+                                команде и обязательно ошибку, которую вывел 
+                                бот. Мы попробуем починить команду и потом 
+                                обязательно оповестим вас. Мой никнейм в 
+                                дискорде: moontr3#4950 (другим разработчикам 
+                                попрошу не писать, они вам все равно не помогут).</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Не хочу ответки, надоели. Можно их убрать для моего сервера?</h3>
+                            <p class="tos-paragraph">Раньше было можно, а сейчас все, сейчас капут. 
+                                Может, потом эта возможность появится 
+                                обратно, но сейчас всё.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Хочу новую ответку или команду. Сделай.</h3>
+                            <p class="tos-paragraph">Я сделаю, только если команда или 
+                                ответка мне понравится или они будут не сложны 
+                                в исполнении. А так, писать можно мне в 
+                                ЛС: moontr3#4950.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Где узнать список ответок?</h3>
+                            <p class="tos-paragraph">Список ответок узнать нельзя 
+                                и никогда не будет можно. Да, доступ к списку 
+                                есть, но мы никому его не дадим, потому что 
+                                смысл ответок в том, что ты не знаешь, на 
+                                какое сообщение стоит ожидать ответ. Но 
+                                зато есть <a href="commands.html">список команд</a>.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>Тут нет моего вопроса. Что делать?</h3>
+                            <p class="tos-paragraph">Либо иди на <a href="discord.html">сервер поддержки</a>, 
+                                либо в ЛС: moontr3#4950. В чем отличие 
+                                сервера и ЛС? На сервере отвечают быстрее, 
+                                но ответ может быть неточным. В ЛС иногда 
+                                приходится ждать, но ответ вы получите точный, 
+                                и возможно, ваш вопрос добавят на эту страницу.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br><br><br><br>
+            <section>
+                <div class="end-of-page">
+                    <p><i>Конец страницы...</i></p><br>
+                    <a href="index.html" class="small-button">На главную</a><br><br><br><br>
+                </div>
+            </section>
+        </div>
+        <section class="footer">
+            <h1>Da-bot</h1>
+            <h5>
+                Создатель сайта и бота: moontr3
+                <br><span style="color: rgba(0,0,0,0.4);"><a onclick="totop()"><span style="text-decoration: underline;">Наверх страницы<br>
+                <a href="external-resources.html">Внешние ресурсы</a> - <a href="tos.html">Условия обслуживания</a> - <a href="https://forms.gle/nE1T9iMyh35kDVLUA">Добавить анекдот</a> - <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.donationalerts.com%2Fr%2Fdabot&sa=D&sntz=1&usg=AOvVaw2ARTabS3PqoYkV4qDVDJs-">Пожертвовать</a> - <a href="https://forms.gle/Tt3uxaVxUYiwZoPH8">Нашли ошибку?</a></span>
+            </h5>
+        </section>
+    </body>
+
+<script>
+    function pageseeing() {
+        if (document.body.scrollTop <= 200 && document.documentElement.scrollTop <= 200){
+            document.body.scrollTop = 200;
+            document.documentElement.scrollTop = 200;
+        }
+    }
+    function totop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</html>

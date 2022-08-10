@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Da-bot - О боте</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/logo.png">
+    </head>
+    <body style="background-color: #ED9553">
+        <section class="small-header">
+            <nav>
+                <a href="index.html">
+                    <img src="images/bw_logo.png">
+                </a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Главная</li></a>
+                        <li><a href="commands.html">Команды</li></a>
+                        <li><a href="faq.html">ЧАВО</li></a>
+                        <li><a href="about.html">О боте</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="top-text">
+                <h1>Da-bot</h1>
+                <p>
+                   О БОТЕ
+                </p><br><br><br>
+                <a href="index.html" class="small-button">На главную</a>
+            </div>
+            <div class="scroll-icon">
+                <img src="images/scroll_down.png" onclick="pageseeing()">
+            </div>
+        </section>
+        <section class="unsupported-size-text">
+            <p>Этот экран слишком мал для отображения сайта.</p>
+        </section>
+        <div class="page-contents">
+            <section>
+                <div class="rect-row">
+                    <h1>Создатели</h1><br>
+                    <div class="row">
+                        <div class="command-col">
+                            <h3>moontr3</h3>
+                            <p>Текущий владелец бота. Помогает его содержать, устраняет проблемы и выпускает обновления.</p>
+                            <h6><br><a href="https://github.com/moontr3/">GitHub</a> - 
+                            <a href="https://www.tiktok.com/@moontr3">TikTok</a> -
+                            <b>moontr3#4950</b></h6>
+                        </div>
+                        <div class="command-col">
+                            <h3>k1l3n</h3>
+                            <p>Иногда даёт идеи, которые можно поместить в бота, также иногда и забирает мои.</p>
+                            <h6><br><b>k1l3n#0001</b></h6>
+                        </div>
+                        <div class="command-col">
+                            <h3>kel</h3>
+                            <p>Бывший член команды. Делал крупные проекты и идеи приходили в основном от него.</p>
+                            <h6><br><b>kel1um#0002</b></h6>
+                        </div>
+                        <div class="command-col">
+                            <h3>Volchok</h3>
+                            <p>Подал идею для создания бота с ответками<br></p>
+                            <h6><br><b>Volchok#2274</b></h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br><br><br><br>
+            <section>
+                <div class="end-of-page">
+                    <p><i>Конец страницы...</i></p><br>
+                    <a href="index.html" class="small-button">На главную</a><br><br><br><br>
+                </div>
+            </section>
+        </div>
+        <section class="footer">
+            <h1>Da-bot</h1>
+            <h5>
+                Создатель сайта и бота: moontr3
+                <br><span style="color: rgba(0,0,0,0.4);"><a onclick="totop()"><span style="text-decoration: underline;">Наверх страницы<br>
+                <a href="external-resources.html">Внешние ресурсы</a> - <a href="tos.html">Условия обслуживания</a> - <a href="https://forms.gle/nE1T9iMyh35kDVLUA">Добавить анекдот</a> - <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.donationalerts.com%2Fr%2Fdabot&sa=D&sntz=1&usg=AOvVaw2ARTabS3PqoYkV4qDVDJs-">Пожертвовать</a> - <a href="https://forms.gle/Tt3uxaVxUYiwZoPH8">Нашли ошибку?</a></span>
+            </h5>
+        </section>
+    </body>
+
+<script>
+    function pageseeing() {
+        if (document.body.scrollTop <= 200 && document.documentElement.scrollTop <= 200){
+            document.body.scrollTop = 200;
+            document.documentElement.scrollTop = 200;
+        }
+    }
+    function totop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</html>
