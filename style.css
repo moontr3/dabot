@@ -101,9 +101,9 @@ nav img{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    border: 2px solid #000;
-    border-radius: 15px;
-    font-weight: 700;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-weight: 600;
     background-color: rgba(242, 227, 209, 0.7);
 }
 .top-text h1{
