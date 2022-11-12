@@ -22,7 +22,7 @@
 .armyane-header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(163, 120, 70, 0.517),rgba(0, 0, 0, 0)), url(images/armyane.jpg);
+    background-image: linear-gradient(rgba(163, 120, 70, 0.3),rgba(0, 0, 0, 0)), url(images/armyane.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -97,13 +97,14 @@ nav img{
     color: #000;
     position: absolute;
     padding: 12px 15px;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    border: 1px solid #000;
-    border-radius: 5px;
-    background-color: rgba(255,255,255, 0.5);
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: rgba(242, 227, 209, 0.7);
 }
 .top-text h1{
     font-size: 106px;
@@ -112,7 +113,7 @@ nav img{
     font-size: 28px;
 }
 .top-text-armyane p{
-    font-size: 20px;
+    font-size: 25px;
 }
 .button{
     display: inline-block;
