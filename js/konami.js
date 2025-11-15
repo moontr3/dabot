@@ -41,5 +41,6 @@ var allowedKeys = {
   });
   
   function activateCheats() {
-    window.location.replace("а-там-армяне-в-нарды-играют.html");
+    window.location.replace("a-tam-armyane-v-nardi-igrayut.html");
+
   }
